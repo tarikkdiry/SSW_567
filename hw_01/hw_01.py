@@ -1,3 +1,7 @@
+# @author: Tarik Kdiry
+# I pledge my honor that I have abided by the Stevens Honor System
+# 9/1/2018
+
 #Classifies triangle based on side lengths
 triangle = ""
 side_list = []

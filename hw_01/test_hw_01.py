@@ -56,8 +56,5 @@ class Test(unittest.TestCase):
     def test15(self):
         self.assertEqual(classify_triangle(0, 1, 0), 'NotATriangle')
 
-
-
-
 if __name__ == "__main__":
     unittest.main()
