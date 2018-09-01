@@ -45,6 +45,19 @@ class Test(unittest.TestCase):
     def test12(self):
         self.assertEqual(classify_triangle(9, 12, 15), 'right')
 
+    # ================= INVALID TRIANGLES ==================
+
+    def test13(self):
+        self.assertEqual(classify_triangle(-1, 1, 1), 'NotATriangle')
+
+    def test14(self):
+        self.assertEqual(classify_triangle(0, 12, 15), 'NotATriangle')
+    
+    def test15(self):
+        self.assertEqual(classify_triangle(0, 1, 0), 'NotATriangle')
+
+
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,1 +1,37 @@
-GITHUB LINK: 
+DISCLAIMER: My computer name is Poirot
+
+GITHUB LINK: https://github.com/tarikkdiry/SSW_567/tree/master/hw_01
+
+PROGRAM RUN:
+Poirot:hw_01 tarikkdiry$ python hw_01.py
+The triangle is a right triangle.
+Poirot:hw_01 tarikkdiry$
+
+
+TEST FILE RUN:
+Poirot:hw_01 tarikkdiry$ python test_hw_01.py
+The triangle is a right triangle.
+............
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
+Poirot:hw_01 tarikkdiry$
+
+QUESTIONS:
+
+What challenges did you encounter with this assignment, if any? 
+
+The only real road block I had was forgetting to iterate through a range instead of a non-iterable entity. (i.e. range(len(side_list)) instead of just len(side_list))
+
+What did you think about the requirements specification for this assignment?
+
+The specification was detailed to the right amount and clear. No excess information or repetition that may have caused confusion.
+
+What challenges did you encounter with the tools?
+
+I have used pytest extensively in a couple previous classes so there weren't any prominent challenges that I ran into. If anything, I had to look up correct syntax for testing
+
+Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+
+I just included basic tests with easy to read values that one can easily see and classify the triangle they would make. I knew I was finished when I knew all my input test values should be correct.

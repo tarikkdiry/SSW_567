@@ -20,6 +20,8 @@ def classify_triangle(a, b, c):
 
     if ((a**2) + (b**2) == (c**2)):
         triangle = "right"
+    elif (a <= 0 or b <= 0 or c <= 0):
+        triangle = "NotATriangle"
     else:
         if (max(side_count) == 1):
             triangle = "scalene"
@@ -31,4 +33,4 @@ def classify_triangle(a, b, c):
     return triangle
 
 
-print("The triangle is a " + classify_triangle(3,4,5) + " triangle.")
+print("The triangle is a " + classify_triangle(-1,4,5) + " triangle.")
